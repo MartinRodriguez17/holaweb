@@ -1,0 +1,42 @@
+/*Estilos Css - Martin Rodriguez
+aploca a todos los componentes del documento html*/
+/*El uso de CSSS*/
+*{
+    /*margin=margen 10px=medida*/
+    margin: 10px;
+    /*font-size= el tamaño de letra*/
+    font-size: 15px;
+    /*color=de letra*/
+    color: black;
+    /*background= el color del fondo de la web*/
+    background-color: rgb(214, 214, 93);
+}
+/*Aqui llamamos la etiqueta div y lo que contiene*/
+div{
+    /*with = renglon del encabezado 100%=medida*/
+    width: 100%;
+    /*border= linea del renglon 1px=grosor y color*/
+    border: 1px solid cadetblue;
+}
+/*llamamos a la clase creada en html llamada logo para 
+poder editarla*/
+.logo{
+    /*with = renglon del encabezado 50%=medida*/
+    width: 50%;
+    /*border= linea del renglon 1px=grosor y color*/
+    border: 1px solid cadetblue;
+}
+/*llamamos a la calse menu*/
+.menu{
+     /*with = renglon del encabezado 50%=medida*/
+    width: 50%;
+    /*border= linea del renglon 1px=grosor y color*/
+    border: 1px solid red;
+}
+/*Este conjunto de etiquetas nos ayuda a buscar
+detalladamente un estilo, dentro de una etiqueta base*/
+ul, a, li{
+    text-decoration: none; /*decoracion de texto pero no c 
+    aplico nd*/
+    color: aqua;
+}
